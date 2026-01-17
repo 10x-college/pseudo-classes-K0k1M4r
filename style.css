@@ -1,0 +1,139 @@
+.header {
+    height: 97px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+
+    display: flex;
+    align-items: center;
+    margin-right: 901px;
+
+
+    a {
+        text-decoration: none;
+        font-size: 45px;
+    }
+
+    span:nth-child(1){
+        color: rgb(40, 99, 126);
+    }
+
+    span:nth-child(2){
+        color: rgb(194, 137, 46);
+    }
+
+    span:nth-child(3){
+        color: rgb(45, 85, 48);
+    }
+
+
+
+
+
+    input {
+        width: 357px;
+        height: 58px;
+        background-color: #ECF3F5;
+    }
+
+
+}
+
+
+.datesAndAddTable {
+    display: flex;
+    align-items: center;
+}
+
+
+.menuFull {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .menuRow {
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+}
+
+
+    
+
+
+
+.menuItemCard {
+        display: flex;
+        flex-direction: column;
+        width: 203px;
+        height: 214px;
+        background-color: #D8E6E9;
+        border-radius: 15px;
+        margin-right: 29px;
+        
+
+
+        .menuItemimage {
+            
+            
+            img {
+                height: 143px;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                overflow: hidden;
+            }
+        }
+
+
+        .menuItemText {
+            padding: 8px 14px 10px 11px;
+
+
+            .menuItemHeader {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 9px;
+            }
+    
+    
+            .menuItemCategory {
+                display: flex;
+                align-items: center;
+                
+    
+                p {
+                    
+                }
+    
+                .menuItemCategory img{
+                    margin-left: 20px;
+                }
+
+
+                .categoryIcon {
+                    height: 23px;
+                    width: 23px;
+                    border-radius: 50%;
+                    background-color: #E0B284;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+            }
+
+        }
+
+        
+}
+
+
+
