@@ -11,34 +11,19 @@
     align-items: center;
     margin-right: 901px;
 
-
     a {
         text-decoration: none;
         font-size: 45px;
     }
 
-    span:nth-child(1){
-        color: rgb(40, 99, 126);
-    }
-
-    span:nth-child(2){
-        color: rgb(194, 137, 46);
-    }
-
-    span:nth-child(3){
-        color: rgb(45, 85, 48);
-    }
-
-
-
-
-
     input {
         width: 357px;
         height: 58px;
         background-color: #ECF3F5;
+        border: none;
+        padding-left: 25px;
+        border-radius: 10px;
     }
-
 
 }
 
@@ -48,6 +33,18 @@
     align-items: center;
 }
 
+.datesAndAddTable button {
+    background-color: #B1CED4;
+    height: 58px;
+    width: 175px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+hr {
+    border-color: #ECEDED;
+}
 
 .menuFull {
 
@@ -69,6 +66,7 @@
 
 
 .menuItemCard {
+
         display: flex;
         flex-direction: column;
         width: 203px;
@@ -80,16 +78,15 @@
 
 
         .menuItemimage {
-            
-            
-            img {
                 height: 143px;
-                width: 100%;
+                width: 203px;
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
                 overflow: hidden;
-            }
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                
         }
 
 
@@ -101,6 +98,7 @@
                 display: flex;
                 justify-content: center;
                 margin-bottom: 9px;
+                font-size: 17px;
             }
     
     
@@ -110,10 +108,11 @@
                 
     
                 p {
-                    
+                    margin-right: 50px;
+                    font-size: 12px;
                 }
-    
-                .menuItemCategory img{
+
+                .menuItemCategory img {
                     margin-left: 20px;
                 }
 
@@ -126,14 +125,90 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    
                 }
                 
+                .categoryIconSecondRow {
+                    height: 23px;
+                    width: 23px;
+                    border-radius: 50%;
+                    background-color: #E0B284;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;   
+                }
+
+                .categoryIconSalad {
+                    height: 23px;
+                    width: 23px;
+                    border-radius: 50%;
+                    background-color: #A2774C;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;  
+                }
+
+                .categoryIconPercentage {
+                    height: 23px;
+                    width: 23px;
+                    border-radius: 50%;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: black; 
+                }
+
+                .categoryIconPercentage span {
+                    margin-top: 3px;
+                    font-size: 9px;
+                }
+
             }
 
         }
 
-        
 }
 
 
+.footer {
+    display: flex;
+    justify-content: center;
+}
 
+.menuTypes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 106px;
+    width: 949px;
+    background-color: #EAF0F0;
+    
+
+}
+
+.menuTypes button:nth-child(1) {
+    height: 58px;
+    width: 158px;
+    background-color: #4A5C2F;
+    color: #ECF3F5;
+    border: none;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.menuTypes button {
+    height: 58px;
+    width: 158px;
+    background-color: #D9D9D9;
+    color: #A9A9A9;
+    border: none;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    
+}    
