@@ -206,9 +206,11 @@ hr {
     justify-content: space-between;
     align-items: center;
     height: 106px;
-    width: 949px;
+    width: 985px;
     background-color: #EAF0F0;
-    position:sticky;
+    position:fixed;
+    bottom: 0;
+    
     
 }
 
